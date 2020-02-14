@@ -128,7 +128,7 @@ Total size of the header is **16 bytes**.
 | 4      | Image            | A single of arbitrary format can be stored in this block          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 5      | MaterialStandard | A standard (mesh) material definition                             | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 6      | PeopleSimulation | Stores people simulation data timestamp and x/y/z coordinates     | :x:                | :x:                | :x:    |
-| 7      | UnityPackage     | Stores a valid unity package (asset bundle)                       | :heavy_check_mark: | :x:                | :x:    |
+| 7      | UnityPackage     | [deprecated] Stores a valid unity package (asset bundle)          | :heavy_check_mark: | :x:                | :x:    |
 | 8      | SceneNode        | A wrapper around a data block which can be used in the scenegraph | :x:                | :heavy_check_mark: | :x:    |
 | 9      | Track            | A track is a tracked position and orientation of an AR device     | :x:                | :x:                | :x:    |
 
